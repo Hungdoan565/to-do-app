@@ -248,7 +248,7 @@ MIT License - Free to use for learning and personal projects
 **Đoàn Vĩnh Hưng**
 - 📧 Email: hungmobile457@gmail.com
 - 🐙 GitHub: [@Hungdoan565](https://github.com/Hungdoan565)
-- 🌐 Live Demo: [https://checkly-app.netlify.app/](https://todo-app.netlify.app/)
+- 🌐 Live Demo: [https://checkly-app.netlify.app/](https://checkly-app.netlify.app/)
 
 Created with ❤️ as a portfolio project demonstrating HTML, CSS & JavaScript skills
 
