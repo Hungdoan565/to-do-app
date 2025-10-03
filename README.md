@@ -2,6 +2,12 @@
 
 Một ứng dụng quản lý công việc (To-do App) với giao diện đẹp mắt, hiệu ứng mượt mà và đầy đủ tính năng.
 
+## 🔗 Live Demo & Source
+
+- 🌐 **Live Demo:** [https://checkly-app.netlify.app/](https://checkly-app.netlify.app/)
+- 📂 **GitHub:** [https://github.com/Hungdoan565/to-do-app](https://github.com/Hungdoan565/to-do-app)
+- 👨‍💻 **Developer:** Đoàn Vĩnh Hưng
+
 ## ✨ Tính năng
 
 ### 🎯 Quản lý Task
@@ -48,22 +54,14 @@ To-do-App/
 
 ## 🚀 Cách chạy
 
-### Cách 1: Mở trực tiếp
-Mở file `index.html` bằng trình duyệt (double-click hoặc right-click > Open with > Browser)
+### Cách 1: Truy cập Live Demo (Khuyến nghị)
+**🌐 [https://checkly-app.netlify.app/](https://checkly-app.netlify.app/)**
 
-### Cách 2: Sử dụng Live Server (Khuyến nghị)
+### Cách 2: Chạy local
 ```bash
-# Với Python 3
-py -3 -m http.server 5500
-
-# Với Node.js (npx)
-npx http-server -p 5500 .
-
-# Với VS Code Extension
-# Cài đặt "Live Server" extension, sau đó right-click index.html > "Open with Live Server"
-```
-
-Sau đó mở trình duyệt tại: `http://localhost:5500`
+# Clone repository
+git clone https://github.com/Hungdoan565/to-do-app.git
+cd to-do-app
 
 ## 🎮 Hướng dẫn sử dụng
 
@@ -222,7 +220,7 @@ App instance được expose qua `window.todoApp` - có thể inspect trong DevT
 - Safari: ✅ Full support
 - IE11: ❌ Not supported (ES6 class)
 
-## 🎓 Kỹ năng JavaScript được thể hiện
+## 🎓 Kỹ năng được thể hiện
 
 - ✅ ES6+ Class & Methods
 - ✅ Arrow Functions
@@ -241,54 +239,37 @@ App instance được expose qua `window.todoApp` - có thể inspect trong DevT
 
 Dự án này hoàn toàn STATIC (HTML/CSS/JS), deploy cực kỳ dễ dàng và MIỄN PHÍ:
 
-### **Khuyến nghị: Netlify hoặc Vercel**
-
-**Netlify (Drag & Drop - 30 giây):**
-1. Vào [netlify.com](https://netlify.com)
-2. Drag folder `To-do-App` vào
-3. Done! 🎉
-
-**Vercel (CLI - 1 phút):**
-```bash
-npm i -g vercel
-vercel
-vercel --prod
-```
-
-**GitHub Pages (Free hosting):**
-```bash
-git init
-git add .
-git commit -m "To-do App v2.0"
-git branch -M main
-git remote add origin https://github.com/USERNAME/todo-app.git
-git push -u origin main
-# Enable Pages trong Settings > Pages
-```
-
-📖 **Chi tiết đầy đủ:** Xem [DEPLOYMENT.md](DEPLOYMENT.md)
-
-## 🌟 Future Improvements
-
-- [x] ~~Add priority levels~~ ✅ (Done in v2.0!)
-- [x] ~~Add search functionality~~ ✅ (Done in v2.0!)
-- [ ] Add categories/tags for tasks
-- [ ] Add due dates & reminders
-- [ ] Add export/import JSON
-- [ ] Add keyboard shortcuts list
-- [ ] Add task notes/description
-- [ ] Add undo/redo functionality
-- [ ] PWA support (offline mode)
-- [ ] Sync with cloud storage
-
 ## 📄 License
 
 MIT License - Free to use for learning and personal projects
 
 ## 👤 Author
 
+**Đoàn Vĩnh Hưng**
+- 📧 Email: hungmobile457@gmail.com
+- 🐙 GitHub: [@Hungdoan565](https://github.com/Hungdoan565)
+- 🌐 Live Demo: [https://checkly-app.netlify.app/](https://todo-app.netlify.app/)
+
 Created with ❤️ as a portfolio project demonstrating HTML, CSS & JavaScript skills
 
 ---
 
 **⭐ Nếu bạn thấy project này hữu ích, hãy star repo này!**
+
+## 📞 Contact
+
+Có câu hỏi hoặc muốn thảo luận về project? 
+
+- 📧 **Email:** hungmobile457@gmail.com
+- 🔗 **GitHub Issues:** [Create an issue](https://github.com/Hungdoan565/to-do-app/issues)
+- 💼 **LinkedIn:** [Connect với tôi](https://linkedin.com/in/doanvinhhung) (nếu có)
+
+---
+
+## 🙏 Credits
+
+Cảm ơn các công cụ và resources đã hỗ trợ:
+- 🎨 **Icons:** Custom SVG icons
+- 🌈 **Colors:** Modern CSS gradients
+- 📱 **Fonts:** System UI stack for optimal performance
+- 🚀 **Hosting:** [Netlify](https://netlify.com) - Amazing free hosting!
