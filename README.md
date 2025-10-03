@@ -154,7 +154,7 @@ class TodoApp {
 ## 🎯 Điểm nổi bật về code
 
 ### 1. Clean Architecture
-- Tách biệt rõ ràng giữa logic và UI
+- Tách biệt rõ ràng giữa logic và UI.
 - Sử dụng ES6 Class để organize code
 - Methods được group theo chức năng
 
